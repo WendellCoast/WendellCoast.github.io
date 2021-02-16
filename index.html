@@ -3,46 +3,95 @@
   <head>
     <title>Portfólio: Wendell Costa</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Open+Sans&family=Roboto+Condensed&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <style>
+    
+    body {
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-image: url(background.jpg)
+   }
+    
+   div.social {
+	display: inline-block;
+   }
+    
+    .important-titles {
+      font-family: 'Nunito Sans', sans-serif;
+    }
+    
+
+   #bio {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: italic;
+   }
+    
+
+   .small-sections {
+     font-style: italic;
+     font-size: smaller;
+     font-weight: 900;
+   }
+   
+
+   .important-ability {
+     font-weight: 700;    
+   }
+   
+   .ability {
+
+   }
+
+    </style>
   </head>
   
   <body>
 
-    <h2 id="inicio" >Wendell da Conceição Costa</h2>
+  <div id="personal_info">
+    <h2 id="profile-picture" class="important-titles">Wendell da Conceição Costa</h2>
     
-    <img src="Minha_foto.jpeg" alt="Foto do Wendell Costa" width="150px">
+    <img src="Minha_foto.jpeg" style="border-radius: 50%;" alt="Foto do Wendell Costa" width="150px">
     
-    <h3>Biografia</h3>
-    <p>Atualmente estudando desenvolvimento Web na Trybe, <br>
+    <h3 class="important-titles">Biografia</h3>
+    
+    <p id="bio">Atualmente estudando desenvolvimento Web na Trybe, <br>
     minha maior motivação é minha paixão por tecnologia, <br>
     vontade de crescer profissionalmente e me tornar um Dev Full Stack. <br>
     
-    <p>Duque de Caxias - RJ / Brasil</p> <br>
-    
+    <p class="small-sections">-Duque de Caxias - RJ / Brasil</p> <br>
+  </div>
 
-    <h3>Seções do Portfólio</h3>
+<hr>
+  
+  <div id="sections">
+    <h3 class="important-titles">Seções do Portfólio</h3>
     <ol>
       <li><a href="#habilidades">Principais Habilidades</a></li>
-      <li><a href="#sites">Blogs que curto</a></li>
-      <li><a href="#linkedin">LinkedIn</a></li>
+      <li><a href="#sites">Outros links</a></li>
+      <li><a href="#linkedin">Conheça meu trabalho</a></li>
     </ol>
-
+  </div>
    
-    <br><p id="habilidades" ><strong>Principais Habilidades</strong></p>
+  <div id="abilities">
+    <br><h3 id="habilidades" class="important-titles">Principais Habilidades</h3>
     
     <ul>
-      <li><strong>JavaScript</strong></li>
-      <li> <strong>HTML</strong></li>
-      <li>CSS</li>
-      <li><strong>React</strong></li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>SQL</li>
-      <li><strong>Git e GitHub</strong></li>
-      <li>Linux</li>
+      <li class="important-ability">Lógica de Programação</li>
+      <li class="important-ability">Inglês avançado</li>
+      <li class="important-ability">Trabalho em Equipe</li>
+      <li class="important-ability">Git e GitHub</li>  
+      <li class="ability">CSS</li>
+      <li class="ability">Node.js</li>
+      <li class="ability">Express.js</li>
+      <li class="ability">SQL</li>
+      <li class="ability">Linux</li>
     </ul>
+  </div>
     
-    
-    <br><p id="sites"><strong>Sites que curto :)</strong></p>
+  <div id="sites">
+    <br><h3 id="sites" class="important-titles"><strong>Sites de tecnologia</strong></h3>
     <ol>
       <li><a href="https://canaltech.com.br/" target="_blank">Canaltech</a></li>
       <li><a href="https://www.tecmundo.com.br/" target="_blank">Tecmundo</a></li>
@@ -52,13 +101,24 @@
       <li><a href="https://olhardigital.com.br/" target="_blank">Olhar Digital</a></li>
       <li><a href="https://autoesporte.globo.com/" target="_blank">AutoEsporte</a></li>
     </ol>
-
-    <br><p id="linkedin"><strong>Que tal nos conectarmos no LinkedIn? <br>
-    É só clicar <a href="https://www.linkedin.com/in/wendell-costa-8673131a6/" target="blank"><strong>aqui</strong> ;)</a>
-    </strong></p>
+  </div>
     
+<hr>
 
-    <p><a href="#inicio">Voltar ao início da página</a></p>
+<div class="social">
+    <a target="blank" href="https://www.linkedin.com/in/wendell-costa-8673131a6/"><img width="80" src="Linkedin.png"/></a>
+
+</div>
+
+<div class="social">
+    <a id="linkedin" target="blank" href="https://github.com/WendellCoast/WendellCoast.github.io/tree/main"><img width="50" src="GitHub-Mark.png"/></a>
+
+</div>
+
+<hr>
+    
+  
+  <a href="#profile-picture"><img width="40" src="back_to_top.png" alt="voltar ao topo"></a>
 
 
 
