@@ -14,6 +14,9 @@
      background-image: url(background.jpg)
    }
     
+   div.box {
+	display: inline-block;
+   }
     
     .important-titles {
       font-family: 'Nunito Sans', sans-serif;
@@ -29,12 +32,13 @@
    .small-sections {
      font-style: italic;
      font-size: smaller;
+     font-weight: 900;
    }
    
 
    .important-ability {
      font-size: larger;
-     font-;
+     
    }
    
    .ability {
@@ -46,7 +50,8 @@
   
   <body>
 
-    <h2 class="important-titles">Wendell da Conceição Costa</h2>
+  <div id="personal_info">
+    <h2 id="profile-picture" class="important-titles">Wendell da Conceição Costa</h2>
     
     <img src="Minha_foto.jpeg" style="border-radius: 50%;" alt="Foto do Wendell Costa" width="150px">
     
@@ -57,22 +62,26 @@
     vontade de crescer profissionalmente e me tornar um Dev Full Stack. <br>
     
     <p class="small-sections">Duque de Caxias - RJ / Brasil</p> <br>
-    
+  </div>
 
+<hr>
+  
+  <div id="sections">
     <h3 class="important-titles">Seções do Portfólio</h3>
     <ol>
       <li><a href="#habilidades">Principais Habilidades</a></li>
-      <li><a href="#sites">Blogs que curto</a></li>
+      <li><a href="#sites">Outros links</a></li>
       <li><a href="#linkedin">LinkedIn</a></li>
     </ol>
-
+  </div>
    
+  <div id="abilities">
     <br><h3 id="habilidades" class="important-titles">Principais Habilidades</h3>
     
     <ul>
-      <li class="important-ability">JavaScript</li>
-      <li class="important-ability">HTML</li>
-      <li class="important-ability">React</li>
+      <li class="important-ability">Lógica de Programação</li>
+      <li class="important-ability">Inglês avançado</li>
+      <li class="important-ability">Trabalho em Equipe</li>
       <li class="important-ability">Git e GitHub</li>  
       <li class="ability">CSS</li>
       <li class="ability">Node.js</li>
@@ -80,9 +89,10 @@
       <li class="ability">SQL</li>
       <li class="ability">Linux</li>
     </ul>
+  </div>
     
-    
-    <br><h3 id="sites" class="important-titles"><strong>Sites que curto :)</strong></h3>
+  <div id="sites">
+    <br><h3 id="sites" class="important-titles"><strong>Sites de tecnologia</strong></h3>
     <ol>
       <li><a href="https://canaltech.com.br/" target="_blank">Canaltech</a></li>
       <li><a href="https://www.tecmundo.com.br/" target="_blank">Tecmundo</a></li>
@@ -92,13 +102,23 @@
       <li><a href="https://olhardigital.com.br/" target="_blank">Olhar Digital</a></li>
       <li><a href="https://autoesporte.globo.com/" target="_blank">AutoEsporte</a></li>
     </ol>
-
-    <br><p id="linkedin"><strong>Que tal nos conectarmos no LinkedIn? <br>
-    É só clicar <a href="https://www.linkedin.com/in/wendell-costa-8673131a6/" target="blank"><strong>aqui</strong> ;)</a>
-    </strong></p>
+  </div>
     
+<hr>
 
-    <p><a href="#inicio">Voltar ao início da página</a></p>
+<div class="box">
+    <img width="80" src="Linkedin.png"/>
+
+</div>
+<div class="box">
+    <img width="50" src="GitHub-Mark.png"/>
+
+</div>
+
+<hr>
+    
+  
+  <a href="#profile-picture"><img width="40" src="back_to_top.png" alt="voltar ao topo"></a>
 
 
 
